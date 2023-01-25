@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Krishna',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
@@ -59,21 +59,21 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'Proton Mail',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Tutanota',
+			icon: 'inbox',
+			link: 'https://mail.tutanota.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Cryptpad',
+			icon: 'file-type',
+			link: 'https://pad.tchncs.de',
 		},
 		{
 			id: '5',
@@ -83,48 +83,48 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Invidious',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://invidious.kavin.rocks/',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Simplelogin',
+			icon: 'send',
+			link: 'https://app.simplelogin.io',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'matrix',
+			icon: 'message-square',
+			link: 'https://cinny.envs.net/',
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Discord',
 			icon: 'bot',
 			link: 'https://discord.com/app',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Nextcloud',
+			icon: 'cloud',
+			link: 'https://ppp.woelkli.com/',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Flathub',
+			icon: 'package',
+			link: 'https://flathub.org/',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Neal',
+			icon: 'joystick',
+			link: 'https://neal.fun/',
 		},
 	],
 
